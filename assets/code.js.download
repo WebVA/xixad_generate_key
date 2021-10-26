@@ -1,0 +1,22 @@
+$(document).ready(function(){
+
+	$(".fa-close").hide();
+
+	$(".fa-bars").on("click", function() {
+
+		$("#sidebar-wrapper").toggle();
+		$(".fa-close").show();
+		$(".fa-bars").hide();
+
+
+	});
+	$(".fa-close").on("click", function() {
+
+		$("#sidebar-wrapper").toggle();
+		$(".fa-bars").show();
+		$(".fa-close").hide();
+
+
+	});
+	
+});
